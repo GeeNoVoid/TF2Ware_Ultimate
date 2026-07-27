@@ -64,8 +64,6 @@ function OnStart()
 	Ware_SetGlobalCondition(TF_COND_GRAPPLINGHOOK)
 	
 	// separate entities are needed to keep bounding box within separate areas and not break visibility
-	// these do/while loops append all beatblocks to their appropriate array, and then BeepBlock_FireInput
-	// checks for array and fires across all entities in array
 	for (local ent; ent = FindByName(ent, "beatblock_green");)
 		green_blocks.append(ent)
 
