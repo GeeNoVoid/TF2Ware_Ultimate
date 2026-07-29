@@ -36,6 +36,9 @@ function OnPrecache()
 
 function OnStart()
 {
+	// Need to set again because minigame location may change between scope loading and OnStart()
+	witch_origin = Ware_MinigameLocation.center
+	
 	// detect melee hits against world
 	SetPropInt(World, "m_takedamage", DAMAGE_EVENTS_ONLY)
 	
