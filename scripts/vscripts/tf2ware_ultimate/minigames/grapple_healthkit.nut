@@ -81,6 +81,7 @@ function OnUpdate()
 			Ware_StripPlayer(player, true)
 			player.AddCustomAttribute("no_attack", 1, 0.5)
 			Ware_PassPlayer(player, true)
+			player.SetHealth(player.GetMaxHealth())
 		}
 	}
 }
