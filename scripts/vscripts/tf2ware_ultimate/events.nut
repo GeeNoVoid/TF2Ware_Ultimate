@@ -240,6 +240,7 @@ function OnGameEvent_teamplay_round_start(params)
 	
 	if (Ware_DebugNextSpecialRound.len() > 0 ||
 		Ware_SpecialRoundNext ||
+		Ware_SpecialRoundInterval == 0 ||
 		(!Ware_SpecialRoundPrevious &&
 			(Ware_RoundsPlayed + 1) % Ware_SpecialRoundInterval == 0))
 	{
