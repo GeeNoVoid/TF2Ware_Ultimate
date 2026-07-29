@@ -289,7 +289,7 @@ function OnPrecache()
 function OnPick()
 {
 	// these special rounds break this boss
-	if(Ware_IsSpecialRoundSet("cramped_quarters") || Ware_IsSpecialRoundSet("skull")) || Ware_IsSpecialRoundSet("hunger_update"))
+	if(Ware_IsSpecialRoundSet("cramped_quarters") || Ware_IsSpecialRoundSet("skull") || Ware_IsSpecialRoundSet("hunger_update"))
 		return false
 	
 	// this lags large servers too hard with high timescale
