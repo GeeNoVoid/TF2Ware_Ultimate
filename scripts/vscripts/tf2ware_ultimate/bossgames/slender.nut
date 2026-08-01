@@ -152,6 +152,7 @@ function OnStart()
 			Ware_TogglePlayerWearables(player, false)
 			player.SetCustomModel(slender_model)
 			player.SetModelScale(1.4, 0.0)
+			SetPropBool(player, "m_bGlowEnabled", false)
 		}
 		else
 		{
