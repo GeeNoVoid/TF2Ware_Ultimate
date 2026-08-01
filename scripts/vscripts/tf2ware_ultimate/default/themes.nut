@@ -31,7 +31,7 @@ buffer<-@"VERSION 4
 		""failure"": 2.377
 		""intro"":   2.5
 		""speedup"": 3.250
-		""victory"": 2.325
+		""victory"": 2.152
 	}
 },
 {
