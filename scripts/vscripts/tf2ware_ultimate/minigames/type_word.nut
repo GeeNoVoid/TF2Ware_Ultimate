@@ -115,7 +115,7 @@ word <- null
 
 function OnPick()
 {
-	return !Ware_IsSpecialRoundSet("hale")
+	return !Ware_IsSpecialRoundSet("hale") // disabled due to text channel conflict
 }
 
 function OnStart()
