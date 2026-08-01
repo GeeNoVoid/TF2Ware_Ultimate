@@ -39,6 +39,11 @@ text_colors <-
 	"ORANGE"
 ]
 
+function OnPick()
+{
+	return !Ware_IsSpecialRoundSet("hale")
+}
+
 function OnPrecache()
 {
 	PrecacheOverlay("hud/tf2ware_ultimate/minigames/type_text")

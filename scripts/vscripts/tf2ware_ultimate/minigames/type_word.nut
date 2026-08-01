@@ -113,6 +113,11 @@ words <-
 first <- true
 word <- null
 
+function OnPick()
+{
+	return !Ware_IsSpecialRoundSet("hale")
+}
+
 function OnStart()
 {
 	word = RandomElement(words)
